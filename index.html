@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/output.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main class="w-full min-h-[100vh] bgc flex items-center">
+      <section
+        class="shadow container w-11/12 xl:w-7/12 overflow-hidden mx-auto min-h-[430px] bg-slate-100 rounded-[40px] flex flex-col items-center xl:items-start xl:flex-row gap-3 xl:gap-0 p-7 xl:py-24"
+      >
+        <div class="xl:w-1/2 flex justify-center items-center">
+          <div
+            class="w-[400px] h-[250px] rounded-3xl bg-black flex flex-col overflow-hidden"
+          >
+            <div class="w-full h-3/6 flex justify-between ps-5 pt-4">
+              <figure>
+                <img
+                  class="w-[55px] object-fill pt-4"
+                  src="img/blue logo.png"
+                  alt=""
+                />
+              </figure>
+
+              <figure dir="rtl" class="flex flex-col gap-1">
+                <img
+                  id="bankImg"
+                  class="w-[90px] object-fill ps-3"
+                  src="img/pngegg.png"
+                  alt=""
+                />
+                <div
+                  dir="rtl"
+                  class="flex justify-center items-center ps-5 gap-4"
+                >
+                  <label
+                    class="text-customColor-mainGold font-semibold w-[25px] text-[15px]"
+                    for="name"
+                    >Cvv2:
+                  </label>
+                  <input
+                    id="c_cvv2"
+                    class="w-[45px] h-4 flex justify-center items-end text-[15px] text-customColor-mainGold bg-transparent placeholder-customColor-mainGold font-semibold"
+                    type="text"
+                    readonly
+                    placeholder="000"
+                    maxlength="5"
+                  />
+                </div>
+              </figure>
+            </div>
+            <!-- //// -->
+            <div class="w-full h-1/6 flex justify-center items-center gap-3">
+              <input
+                id="C_inp1"
+                class="w-[70px] h-[30px] text-center text-[20px] bg-transparent text-customColor-mainGold font-black placeholder-customColor-mainGold"
+                type="text"
+                maxlength="4"
+                readonly
+                placeholder="0 0 0 0"
+              />
+              <input
+                id="C_inp2"
+                class="w-[70px] h-[30px] text-center text-[20px] bg-transparent text-customColor-mainGold font-black placeholder-customColor-mainGold"
+                type="text"
+                maxlength="4"
+                readonly
+                placeholder="0 0 0 0"
+              />
+              <input
+                id="C_inp3"
+                class="w-[70px] h-[30px] text-center text-[20px] bg-transparent text-customColor-mainGold font-black placeholder-customColor-mainGold"
+                type="text"
+                maxlength="4"
+                readonly
+                placeholder="0 0 0 0"
+              />
+              <input
+                id="C_inp4"
+                class="w-[70px] h-[30px] text-center text-[20px] bg-transparent text-customColor-mainGold font-black placeholder-customColor-mainGold"
+                type="text"
+                maxlength="4"
+                readonly
+                placeholder="0 0 0 0"
+              />
+            </div>
+            <!-- //// -->
+            <div
+              dir="rtl"
+              class="w-full h-1/6 flex items-center justify-between px-5"
+            >
+              <input
+                id="cardname"
+                dir="rtl"
+                class="w-[180px] text-customColor-mainGold font-black text-[20px] bg-transparent placeholder-customColor-mainGold"
+                type="text"
+                readonly
+                placeholder="نام و نام خانوادگی"
+              />
+              <input
+                id="c_date"
+                dir="ltr"
+                class="w-[150px] text-customColor-mainGold font-black text-[20px] bg-transparent placeholder-customColor-mainGold"
+                type="text"
+                readonly
+                placeholder="00/00/00"
+              />
+            </div>
+            <!-- //// -->
+            <div class="w-full h-1/6 flex items-center justify-between px-5">
+              <figure>
+                <img class="w-[20px]" src="img/footer1 (3).png" alt="" />
+              </figure>
+              <figure>
+                <img class="w-[20px]" src="img/footer1 (3).png" alt="" />
+              </figure>
+              <figure>
+                <img class="w-[20px]" src="img/footer1 (3).png" alt="" />
+              </figure>
+              <figure>
+                <img class="w-[20px]" src="img/footer1 (3).png" alt="" />
+              </figure>
+              <figure>
+                <img class="w-[20px]" src="img/footer1 (3).png" alt="" />
+              </figure>
+              <figure>
+                <img class="w-[20px]" src="img/footer1 (3).png" alt="" />
+              </figure>
+              <figure>
+                <img class="w-[20px]" src="img/footer1 (3).png" alt="" />
+              </figure>
+              <figure>
+                <img class="w-[20px]" src="img/footer1 (3).png" alt="" />
+              </figure>
+              <figure>
+                <img class="w-[20px]" src="img/footer1 (3).png" alt="" />
+              </figure>
+              <figure>
+                <img class="w-[20px]" src="img/footer1 (3).png" alt="" />
+              </figure>
+            </div>
+            <!-- //// -->
+          </div>
+        </div>
+        <!-- //////////////////////////////////////////////////////////////////////////// -->
+        <div class="xl:w-1/2 flex flex-col g">
+          <section class="w-full h-4/6 flex flex-col gap-9">
+            <div class="w-full flex flex-col xl:px-11">
+              <label for="name">Name</label>
+              <input
+                id="nameInp"
+                class="w-[320px] h-[30px] bg-slate-50 border border-gray-300"
+                type="text"
+                maxlength="20"
+              />
+            </div>
+            <div class="w-full flex flex-col xl:px-10">
+              <div class="w-full h-1/2 flex items-end">
+                <h3 class="">Card Number</h3>
+              </div>
+              <div class="w-full h-1/2 flex gap-4">
+                <input
+                  id="inp1"
+                  class="w-[70px] h-[30px] border border-gray-300"
+                  type="text"
+                  maxlength="4"
+                />
+                <input
+                  id="inp2"
+                  class="w-[70px] h-[30px] border border-gray-300"
+                  type="text"
+                  maxlength="4"
+                />
+                <input
+                  id="inp3"
+                  class="w-[70px] h-[30px] border border-gray-300"
+                  type="text"
+                  maxlength="4"
+                />
+                <input
+                  id="inp4"
+                  class="w-[70px] h-[30px] border border-gray-300"
+                  type="text"
+                  maxlength="4"
+                />
+              </div>
+            </div>
+            <div class="flex gap-7 xl:px-10">
+              <div class="flex flex-col">
+                <label for="Cvv2">Cvv2</label>
+                <input
+                  id="cvv2"
+                  class="w-[150px] h-[30px] border border-gray-300"
+                  type="text"
+                  maxlength="5"
+                />
+              </div>
+              <div class="flex flex-col">
+                <label for="name">Expiration (mm/yy)</label>
+                <input
+                  id="_date"
+                  class="w-[150px] h-[30px] border border-gray-300"
+                  type="date"
+                />
+              </div>
+              <!-- // -->
+            </div>
+          </section>
+          <section class="w-full h-2/6 bg-yellow-500"></section>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script>
+    const nameInp = document.getElementById("nameInp");
+    const cardname = document.getElementById("cardname");
+    nameInp.focus();
+    const inp1 = document.getElementById("inp1");
+    const inp2 = document.getElementById("inp2");
+    const inp3 = document.getElementById("inp3");
+    const inp4 = document.getElementById("inp4");
+
+    const c_inp1 = document.getElementById("C_inp1");
+    const c_inp2 = document.getElementById("C_inp2");
+    const c_inp3 = document.getElementById("C_inp3");
+    const c_inp4 = document.getElementById("C_inp4");
+
+    const cvv2 = document.getElementById("cvv2");
+    const _date = document.getElementById("_date");
+
+    const c_cvv2 = document.getElementById("c_cvv2");
+    const c_date = document.getElementById("c_date");
+    const bankImg = document.getElementById("bankImg");
+
+    // ///////////
+    document.addEventListener("input", () => {
+      nameInp.addEventListener("input", () => {
+        cardname.value = nameInp.value;
+      });
+    });
+    // ///////////
+    // inp1////////////////
+    document.addEventListener("input", () => {
+      inp1.addEventListener("input", () => {
+        c_inp1.value = inp1.value;
+        if (inp1.value.length == 4) {
+          inp1.nextElementSibling.focus();
+        }
+      });
+    });
+    // inp2////////////////
+    document.addEventListener("input", () => {
+      inp2.addEventListener("keyup", (e) => {
+        c_inp2.value = inp2.value;
+        let myKeyCode = e.keycode || e.which;
+        if (inp2.value.length == 4) {
+          inp2.nextElementSibling.focus();
+        } else if (myKeyCode == 8) {
+          if (inp2.value.length == 0) {
+            inp2.previousElementSibling.focus();
+          }
+        }
+      });
+    });
+    // inp3////////////////
+    document.addEventListener("input", () => {
+      inp3.addEventListener("keyup", (e) => {
+        c_inp3.value = inp3.value;
+        let myKeyCode = e.keycode || e.which;
+        if (inp3.value.length == 4) {
+          inp3.nextElementSibling.focus();
+        } else if (myKeyCode == 8) {
+          if (inp3.value.length == 0) {
+            inp3.previousElementSibling.focus();
+          }
+        }
+      });
+    });
+    // inp4////////////////
+    document.addEventListener("input", () => {
+      inp4.addEventListener("keyup", (e) => {
+        c_inp4.value = inp4.value;
+        let myKeyCode = e.keycode || e.which;
+        if (inp4.value.length == 4) {
+          cvv2.focus();
+        } else if (myKeyCode == 8) {
+          if (inp4.value.length == 0) {
+            inp4.previousElementSibling.focus();
+          }
+        }
+      });
+    });
+    ///////////////// cvv2////////////////
+    document.addEventListener("input", () => {
+      cvv2.addEventListener("input", () => {
+        c_cvv2.value = cvv2.value;
+      });
+    });
+    ///////////////// Expiration (mm/yy)////////////////
+    document.addEventListener("input", () => {
+      _date.addEventListener("input", () => {
+        c_date.value = _date.value;
+      });
+    });
+    // change bank imaged by numbers////
+    function logInputValues() {
+      const firstInputValue = inp1.value;
+      const firstTwoDigitsSecondInput = inp2.value.slice(0, 2);
+      const Combined = firstInputValue + firstTwoDigitsSecondInput;
+      switch (Combined) {
+        case "606373":
+          bankImg.src = "img/Bank/mehr.png";
+          break;
+
+          bankImg.src = "img/Bank/bmilogo.svg";
+          break;
+        case "603770":
+          bankImg.src = "img/Bank/Bank-Keshavarzi-Logo.svg";
+          break;
+        case "603769":
+          bankImg.src = "img/Bank/Bank-Saderat-Iran.svg";
+          break;
+        case "627353":
+          bankImg.src = "img/Bank/Tejarat_Bank_Logo.svg";
+          break;
+        case "627961":
+          bankImg.src = "img/Bank/Bank-of-Industry-and-Mine-Logo.svg";
+          break;
+        case "610433":
+          bankImg.src = "img/Bank/Mellat.svg";
+          break;
+        case "589463":
+          bankImg.src = "img/Bank/Bank-Refah-Kargaran-Logo.svg";
+          break;
+        case "628023":
+          bankImg.src = "img/Bank/Maskan.svg";
+          break;
+        case "589210":
+        case "627381":
+        case "606737":
+          bankImg.src = "img/Bank/Bank-Sepah-Logo.svg";
+          break;
+        case "627648":
+          bankImg.src = "img/Bank/Export-Development-Bank-of-Iran-Logo.svg";
+          break;
+        case "627760":
+          bankImg.src = "img/Bank/post-bank.png";
+          break;
+        case "621986":
+          bankImg.src = "img/Bank/bank-saman1.svg";
+          break;
+        case "627488":
+          bankImg.src = "img/Bank/Karafarin-Bank-Logo.svg";
+          break;
+        case "622106":
+          bankImg.src = "img/Bank/Parsian-Bank-Logo.svg";
+          break;
+        case "627419":
+          bankImg.src = "img/Bank/enbank.svg";
+          break;
+        case "639347":
+          bankImg.src = "img/Bank/Pasargad-Bank-Logo.svg";
+          break;
+        case "639346":
+          bankImg.src = "img/Bank/bank-sina.png";
+          break;
+        case "502806":
+          bankImg.src = "img/Bank/Bank-shahr.svg";
+          break;
+        case "639607":
+          bankImg.src = "img/Bank/Sarmayeh-Bank-Logo.svg";
+          break;
+        case "502908":
+          bankImg.src = "img/Bank/Tosee-Taavon-Bank-Logo.svg";
+          break;
+        case "636214":
+          bankImg.src = "img/Bank/Bank-Ayandeh-Logo.svg";
+          break;
+        case "502938":
+          bankImg.src = "img/Bank/Bank-Day-logo.svg";
+          break;
+        case "504172":
+          bankImg.src = "img/Bank/resalat-Bank.svg";
+          break;
+        case "606256":
+          bankImg.src = "img/Bank/melal.png";
+          break;
+        case "639599":
+          bankImg.src = "img/Bank/Ghavamin-Bank-Logo.svg";
+          break;
+        case "636949":
+          bankImg.src = "img/Bank/Bank-Hekmat-Iranian-Logo.svg";
+          break;
+        case "505416":
+          bankImg.src = "img/Bank/Tourism-Bank-Logo.svg";
+          break;
+        default:
+          break;
+      }
+    }
+    inp1.addEventListener("input", logInputValues);
+    inp2.addEventListener("input", logInputValues);
+  </script>
+</html>
